@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — ClipFlow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black: #0a0a0a; --white: #f5f4f0; --accent: #ff3b5c;
+      --mid: #141414; --muted: #888; --border: rgba(255,255,255,0.08);
+    }
+    body { font-family: 'DM Sans', sans-serif; background: var(--black); color: var(--white); line-height: 1.7; }
+
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 48px; border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.15rem;
+      letter-spacing: -0.02em; color: var(--white); text-decoration: none;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-back {
+      color: var(--muted); text-decoration: none; font-size: 0.875rem;
+      display: flex; align-items: center; gap: 8px; transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--white); }
+
+    .page-hero {
+      background: var(--mid);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 48px 48px;
+    }
+    .page-hero .tag {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 12px;
+    }
+    .page-hero h1 {
+      font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800; letter-spacing: -0.03em; line-height: 1.1;
+    }
+    .page-hero .meta {
+      margin-top: 16px; font-size: 0.85rem; color: var(--muted);
+    }
+
+    .content-wrap { max-width: 760px; margin: 0 auto; padding: 72px 48px; }
+
+    h2 {
+      font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700;
+      letter-spacing: -0.02em; margin: 48px 0 16px;
+      padding-top: 48px; border-top: 1px solid var(--border);
+    }
+    h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+    h3 {
+      font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700;
+      margin: 28px 0 10px; color: rgba(245,244,240,0.85);
+    }
+    p { font-size: 0.95rem; color: rgba(245,244,240,0.75); margin-bottom: 16px; line-height: 1.75; }
+    ul, ol { padding-left: 24px; margin-bottom: 16px; }
+    li { font-size: 0.95rem; color: rgba(245,244,240,0.75); margin-bottom: 8px; line-height: 1.65; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--white); font-weight: 500; }
+
+    .highlight-box {
+      background: rgba(255,59,92,0.06);
+      border: 1px solid rgba(255,59,92,0.2);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 32px 0;
+    }
+    .highlight-box p { color: rgba(245,244,240,0.85); margin: 0; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 48px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); }
+
+    @media (max-width: 640px) {
+      nav, .page-hero, .content-wrap, footer { padding-left: 20px; padding-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">Clip<span>Flow</span></a>
+    <a href="/" class="nav-back">← Back to home</a>
+  </nav>
+
+  <div class="page-hero">
+    <p class="tag">Legal</p>
+    <h1>Terms of Service</h1>
+    <p class="meta">Last updated: 1 June 2025 &nbsp;·&nbsp; Effective: 1 June 2025</p>
+  </div>
+
+  <div class="content-wrap">
+
+    <div class="highlight-box">
+      <p>Please read these Terms of Service carefully before using ClipFlow. By using our service, you agree to be bound by these terms. If you do not agree, please do not use ClipFlow.</p>
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("User", "you") and ClipFlow ("we", "us", "our") governing your use of the ClipFlow service ("Service"). By accessing or using the Service, you confirm that you are at least 18 years of age and agree to these Terms.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>ClipFlow provides an automated content distribution service that:</p>
+    <ul>
+      <li>Identifies and downloads publicly available streaming clips from platforms such as Twitch.</li>
+      <li>Reformats and optimises clips for short-form video platforms.</li>
+      <li>Publishes clips to connected social media accounts (TikTok, Instagram, YouTube) via official APIs.</li>
+      <li>Generates AI-assisted metadata (titles, descriptions, hashtags) optimised for each platform.</li>
+      <li>Provides scheduling, logging, and performance tracking features.</li>
+    </ul>
+
+    <h2>3. User Accounts and Authorisation</h2>
+
+    <h3>3.1 Platform Connections</h3>
+    <p>To use ClipFlow, you must authorise the Service to act on your behalf on connected platforms (TikTok, Instagram, YouTube). This is done through each platform's official OAuth 2.0 flow. By connecting an account, you grant ClipFlow permission to publish content to that account as directed by your configuration settings.</p>
+
+    <h3>3.2 Your Responsibilities</h3>
+    <p>You are responsible for:</p>
+    <ul>
+      <li>Ensuring you have the right to repost any content distributed through ClipFlow.</li>
+      <li>Complying with the terms of service of all connected platforms (TikTok, Meta, Google/YouTube).</li>
+      <li>Maintaining the security of your ClipFlow access credentials.</li>
+      <li>All content published through your connected accounts via ClipFlow.</li>
+    </ul>
+
+    <h3>3.3 Account Security</h3>
+    <p>You agree to notify us immediately of any unauthorised use of your account. We are not liable for any loss or damage arising from your failure to maintain the security of your credentials.</p>
+
+    <h2>4. Acceptable Use</h2>
+    <p>You agree to use ClipFlow only for lawful purposes and in accordance with these Terms. You must not use the Service to:</p>
+    <ul>
+      <li>Post content that infringes any third party's intellectual property rights.</li>
+      <li>Distribute content that is illegal, harmful, threatening, abusive, defamatory, or obscene.</li>
+      <li>Violate any applicable laws or regulations, including copyright and data protection laws.</li>
+      <li>Circumvent, disable, or interfere with security-related features of any platform.</li>
+      <li>Use the Service in any way that violates TikTok's, Meta's, or Google's Terms of Service.</li>
+      <li>Attempt to gain unauthorised access to any part of the Service or its related systems.</li>
+      <li>Engage in spam, artificial engagement, or any activity that manipulates platform algorithms in a manner prohibited by platform policies.</li>
+    </ul>
+
+    <h2>5. Intellectual Property</h2>
+
+    <h3>5.1 Content You Publish</h3>
+    <p>You represent and warrant that you have all necessary rights, licences, and permissions for any content published through ClipFlow. For streaming clips, this includes ensuring compliance with the originating platform's terms regarding clip reuse and any applicable copyright laws.</p>
+
+    <h3>5.2 Our Intellectual Property</h3>
+    <p>The ClipFlow service, including its software, design, and documentation, is protected by intellectual property laws. We grant you a limited, non-exclusive, non-transferable licence to use the Service for its intended purpose. You may not copy, modify, distribute, or reverse-engineer any part of the Service.</p>
+
+    <h2>6. TikTok Integration</h2>
+    <p>ClipFlow integrates with TikTok's Content Posting API pursuant to TikTok's Developer Terms of Service. In connection with this integration:</p>
+    <ul>
+      <li>You must comply with TikTok's <a href="https://www.tiktok.com/legal/page/global/tos/en" target="_blank" rel="noopener">Terms of Service</a> and <a href="https://www.tiktok.com/legal/page/global/privacy-policy/en" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+      <li>ClipFlow uses TikTok API data solely to publish content you have authorised. We do not scrape, resell, or misuse TikTok data.</li>
+      <li>TikTok may revoke API access at any time, which may affect the availability of this feature.</li>
+      <li>Content published via TikTok must comply with TikTok's Community Guidelines.</li>
+    </ul>
+
+    <h2>7. Disclaimers and Limitation of Liability</h2>
+
+    <h3>7.1 Service Availability</h3>
+    <p>The Service is provided "as is" and "as available". We make no warranties, express or implied, regarding the reliability, accuracy, or availability of the Service. Platform API availability is outside our control and we are not liable for service interruptions caused by third-party platforms.</p>
+
+    <h3>7.2 Limitation of Liability</h3>
+    <p>To the maximum extent permitted by law, ClipFlow shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to: loss of profits, data, or goodwill; service interruptions; or any damages resulting from content published through the Service.</p>
+
+    <h2>8. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless ClipFlow and its operators from any claims, damages, liabilities, costs, and expenses (including reasonable legal fees) arising from: (a) your use of the Service; (b) content you cause to be published; (c) your violation of these Terms; or (d) your violation of any third-party rights.</p>
+
+    <h2>9. Termination</h2>
+    <p>We reserve the right to suspend or terminate your access to the Service at any time, with or without notice, if we determine that you have violated these Terms or any applicable laws. You may terminate your use of the Service at any time by disconnecting all platform accounts and ceasing use.</p>
+    <p>Upon termination, we will delete your OAuth tokens within 30 days. Publishing logs may be retained for up to 12 months for audit purposes.</p>
+
+    <h2>10. Governing Law</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of the European Union and applicable member state law. Any disputes shall be subject to the exclusive jurisdiction of the competent courts.</p>
+
+    <h2>11. Changes to Terms</h2>
+    <p>We may modify these Terms at any time. Changes will be posted on this page with an updated "Last updated" date. Material changes will be communicated where reasonably possible. Continued use of the Service following any changes constitutes your acceptance of the new Terms.</p>
+
+    <h2>12. Contact</h2>
+    <p>For questions about these Terms, please contact us at: <a href="mailto:legal@clipflow.app">legal@clipflow.app</a></p>
+
+  </div>
+
+  <footer>
+    <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;letter-spacing:-0.02em;">
+      Clip<span style="color:var(--accent)">Flow</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+    <span class="footer-copy">© 2025 ClipFlow. All rights reserved.</span>
+  </footer>
+
+</body>
+</html>

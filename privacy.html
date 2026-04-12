@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — ClipFlow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black: #0a0a0a; --white: #f5f4f0; --accent: #ff3b5c;
+      --mid: #141414; --muted: #888; --border: rgba(255,255,255,0.08);
+    }
+    body { font-family: 'DM Sans', sans-serif; background: var(--black); color: var(--white); line-height: 1.7; }
+
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 48px; border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.15rem;
+      letter-spacing: -0.02em; color: var(--white); text-decoration: none;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-back {
+      color: var(--muted); text-decoration: none; font-size: 0.875rem;
+      display: flex; align-items: center; gap: 8px; transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--white); }
+
+    .page-hero {
+      background: var(--mid);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 48px 48px;
+    }
+    .page-hero .tag {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 12px;
+    }
+    .page-hero h1 {
+      font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800; letter-spacing: -0.03em; line-height: 1.1;
+    }
+    .page-hero .meta {
+      margin-top: 16px; font-size: 0.85rem; color: var(--muted);
+    }
+
+    .content-wrap {
+      max-width: 760px; margin: 0 auto; padding: 72px 48px;
+    }
+
+    h2 {
+      font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700;
+      letter-spacing: -0.02em; margin: 48px 0 16px;
+      padding-top: 48px; border-top: 1px solid var(--border);
+      color: var(--white);
+    }
+    h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+    h3 {
+      font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700;
+      margin: 28px 0 10px; color: rgba(245,244,240,0.85);
+    }
+    p { font-size: 0.95rem; color: rgba(245,244,240,0.75); margin-bottom: 16px; line-height: 1.75; }
+    ul, ol { padding-left: 24px; margin-bottom: 16px; }
+    li { font-size: 0.95rem; color: rgba(245,244,240,0.75); margin-bottom: 8px; line-height: 1.65; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--white); font-weight: 500; }
+
+    .highlight-box {
+      background: rgba(255,59,92,0.06);
+      border: 1px solid rgba(255,59,92,0.2);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 32px 0;
+    }
+    .highlight-box p { color: rgba(245,244,240,0.85); margin: 0; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 48px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); }
+
+    @media (max-width: 640px) {
+      nav, .page-hero, .content-wrap, footer { padding-left: 20px; padding-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">Clip<span>Flow</span></a>
+    <a href="/" class="nav-back">← Back to home</a>
+  </nav>
+
+  <div class="page-hero">
+    <p class="tag">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 1 June 2025 &nbsp;·&nbsp; Effective: 1 June 2025</p>
+  </div>
+
+  <div class="content-wrap">
+
+    <div class="highlight-box">
+      <p>This Privacy Policy explains how ClipFlow ("we", "our", or "us") collects, uses, and protects information when you use our service. We are committed to protecting your privacy and handling data responsibly.</p>
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>ClipFlow is an automated content distribution service that processes publicly available streaming clips and distributes them across social media platforms including TikTok, Instagram, and YouTube on behalf of authorised users.</p>
+    <p>For questions about this policy, contact us at: <a href="mailto:privacy@clipflow.app">privacy@clipflow.app</a></p>
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Information You Provide</h3>
+    <ul>
+      <li><strong>Account credentials:</strong> OAuth 2.0 tokens you authorise when connecting your TikTok, Instagram, YouTube, or Google accounts. We store these securely and only use them to post content on your behalf.</li>
+      <li><strong>Configuration settings:</strong> Your preferences for content categories, posting schedules, and platform settings.</li>
+    </ul>
+
+    <h3>2.2 Information Collected Automatically</h3>
+    <ul>
+      <li><strong>Usage logs:</strong> Records of content processed and published, including timestamps, platform, and status. These are used for deduplication and performance tracking.</li>
+      <li><strong>API response data:</strong> When we post content via TikTok's Content Posting API or Meta's Graph API, we receive and log the platform-assigned post ID and status for your records.</li>
+    </ul>
+
+    <h3>2.3 Third-Party Platform Data</h3>
+    <p>When you connect a TikTok account to ClipFlow, we access only the permissions you explicitly grant. Specifically:</p>
+    <ul>
+      <li><strong>video.publish:</strong> To post video content to your TikTok profile on your behalf.</li>
+      <li><strong>user.info.basic:</strong> To verify account identity and display your TikTok username within our service.</li>
+    </ul>
+    <p>We do not access your TikTok followers, messages, liked videos, or any personal data beyond what is necessary to publish content.</p>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>To publish video content to your connected social media accounts as configured by you.</li>
+      <li>To schedule and manage your posting queue.</li>
+      <li>To log publishing history for deduplication (so the same clip is not posted twice).</li>
+      <li>To generate performance reports showing which clips were published and when.</li>
+      <li>To improve the reliability and functionality of our service.</li>
+    </ul>
+    <p>We <strong>do not</strong> use your data for advertising, profiling, or any purpose beyond providing the ClipFlow service.</p>
+
+    <h2>4. Data Sharing and Disclosure</h2>
+    <p>We do not sell, rent, or trade your personal information to third parties. We may share data only in the following circumstances:</p>
+    <ul>
+      <li><strong>With your consent:</strong> When you explicitly authorise a specific sharing action.</li>
+      <li><strong>Service providers:</strong> We use Google Cloud services for storage and computation. These providers process data strictly on our behalf and under confidentiality agreements.</li>
+      <li><strong>Legal requirements:</strong> If required by law, court order, or governmental authority.</li>
+      <li><strong>Platform APIs:</strong> When publishing content, necessary metadata (title, description, hashtags) is transmitted to TikTok, Meta, or YouTube via their official APIs as required to complete the posting action.</li>
+    </ul>
+
+    <h2>5. TikTok Data Practices</h2>
+    <p>ClipFlow integrates with TikTok's Content Posting API. In connection with this integration:</p>
+    <ul>
+      <li>We request only the minimum scopes necessary: <code>video.publish</code> and <code>user.info.basic</code>.</li>
+      <li>Access tokens are stored encrypted and are never shared with third parties.</li>
+      <li>We do not access, store, or process any TikTok user data belonging to third parties (followers, comments, messages).</li>
+      <li>Content posted via our integration represents publicly available streaming highlights reposted with appropriate attribution where applicable.</li>
+      <li>Users can revoke TikTok access at any time through TikTok's "Manage App Permissions" settings.</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li><strong>OAuth tokens:</strong> Retained until you disconnect your account or revoke access on the platform side. Tokens are refreshed automatically and deleted when expired or revoked.</li>
+      <li><strong>Publishing logs:</strong> Retained for 12 months to support deduplication and performance analytics, then deleted.</li>
+      <li><strong>Configuration data:</strong> Retained while your account is active. Deleted within 30 days of account deletion.</li>
+    </ul>
+
+    <h2>7. Data Security</h2>
+    <p>We implement appropriate technical and organisational measures to protect your data:</p>
+    <ul>
+      <li>All API tokens and credentials are encrypted at rest using AES-256.</li>
+      <li>All data in transit is protected using TLS 1.2 or higher.</li>
+      <li>Access to production systems is restricted and logged.</li>
+      <li>We conduct periodic security reviews of our infrastructure.</li>
+    </ul>
+
+    <h2>8. Your Rights</h2>
+    <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
+      <li><strong>Correction:</strong> Request correction of inaccurate data.</li>
+      <li><strong>Deletion:</strong> Request deletion of your data ("right to be forgotten").</li>
+      <li><strong>Portability:</strong> Receive your data in a structured, machine-readable format.</li>
+      <li><strong>Objection:</strong> Object to specific processing of your data.</li>
+      <li><strong>Withdraw consent:</strong> Revoke any consent you have previously given.</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:privacy@clipflow.app">privacy@clipflow.app</a>. We will respond within 30 days.</p>
+
+    <h2>9. Cookies and Tracking</h2>
+    <p>Our website uses no tracking cookies or analytics scripts. We do not use advertising pixels, cross-site tracking, or fingerprinting technologies.</p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>ClipFlow is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+    <h2>11. International Data Transfers</h2>
+    <p>Our services are operated from within the European Union. If data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place (Standard Contractual Clauses or equivalent mechanisms) in compliance with GDPR.</p>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Material changes will be communicated via email to registered users where applicable. Continued use of the service after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>13. Contact</h2>
+    <p>For any privacy-related questions, requests, or complaints:</p>
+    <ul>
+      <li>Email: <a href="mailto:privacy@clipflow.app">privacy@clipflow.app</a></li>
+    </ul>
+
+  </div>
+
+  <footer>
+    <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;letter-spacing:-0.02em;">
+      Clip<span style="color:var(--accent)">Flow</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+    <span class="footer-copy">© 2025 ClipFlow. All rights reserved.</span>
+  </footer>
+
+</body>
+</html>
